@@ -141,10 +141,10 @@ trace和debug级别，是c++程序在调试跟踪时使用的，在spdlogger4Lua
 
 set_pattern中的patter参数，实际就是一个格式化字符串，参考如下：
 ```lua
-对对象设置pattern:
+-- 对mylogger对象设置pattern:
 mylogger:set_pattern(">>>>>>>>> %H:%M:%S %z %v <<<<<<<<<");
 
-对所有logger对象设置日志格式：
+-- 对所有logger对象设置日志格式：
 spdlogger.set_pattern("*** [%H:%M:%S %z] [thread %t] %v ***");
 ```
 格式化的标志可以参考下表：
