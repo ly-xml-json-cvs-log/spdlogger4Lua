@@ -1,0 +1,2 @@
+# spdlogger4Lua
+spdlogger4Lua是spdlog的lua移植，它通过简单的封装spdlog的方法和类，使得在lua程序中可以方便的使用spdlog。
